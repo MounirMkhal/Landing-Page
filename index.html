@@ -5,6 +5,26 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+			#four .features {
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+			}
+			#four .feature {
+				flex: 1 1 30%; /* Adjust the percentage to control the width */
+				margin: 10px;
+				box-sizing: border-box;
+			}
+			#four .feature img {
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+		</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="landing is-preload">
@@ -81,7 +101,7 @@
 						<div class="inner">
 							<header class="major">
 								<h2>Skills & Endorsements</h2>
-								<p>Highlighted skills include Python, elements of full stack development like Node.js, Next.js, React, and PostgreSQL.</p>
+								<p>Highlighted skills include Python, elements of full stack development like Node.js, Next.js, React, PostgreSQL, and AWS.</p>
 							</header>
 							<ul class="features">
 								<li class="icon solid fa-code">
@@ -95,6 +115,10 @@
 								<li class="icon solid fa-database">
 									<h3>PostgreSQL</h3>
 									<p>Skilled in using PostgreSQL for database management and backend integration.</p>
+								</li>
+								<li class="icon solid fa-cloud">
+									<h3>AWS</h3>
+									<p>Experienced in leveraging AWS services for secure, scalable, and cost-effective cloud solutions.</p>
 								</li>
 							</ul>
 						</div>
